@@ -1189,3 +1189,50 @@ footer a{
     font-size: 24px;
     text-decoration: none;
 }
+.footer-details.highlighted {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    padding: 25px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: 'Poppins', sans-serif; /* Smooth, modern font */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .footer-details.highlighted:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  }
+  
+  .footer-details.highlighted h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+  }
+  
+  .footer-details.highlighted ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-details.highlighted li {
+    font-size: 16px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .footer-details.highlighted li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #fff;
+    font-size: 18px;
+  }
+  
